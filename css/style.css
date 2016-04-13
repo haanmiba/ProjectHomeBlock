@@ -1,0 +1,151 @@
+/*Author: Hans Bas
+*/
+
+.top {
+	padding: 20px 0;
+}
+
+.topnav {
+	padding-top: 10px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+small {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a {
+	font-family: sans-serif;
+	color: #666666;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.topnav p {
+	font-size: smaller;
+	color: #cacaca;
+}
+
+.topnav li {
+	padding: 0 10px !important;
+	background: transparent url(images/dot.gif) repeat-y left;
+}
+
+.logo {
+	padding-top: 30px;
+	width: 287px;
+	height: 60px;
+	text-indent: -9999px;
+	background: transparent url(images/logo.png) no-repeat center;
+}
+
+.banner {
+	height: 330px;
+	/*background: #333;*/
+	border-bottom: solid #fff 100px;
+	background: #151515;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#333333));
+	background: -webkit-linear-gradient(#151515 0%, #333333 100%);
+	background: -moz-linear-gradient(#151515 0%, #333333 100%);
+	background: -o-linear-gradient(#151515 0%, #333333 100%);
+	background: linear-gradient(#151515 0%, #333333 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151515', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+}
+
+hr.divider {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+li img {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.main {
+	padding: 20px 0;
+}
+
+.span4 h5 {
+	font-family: Arial;
+}
+
+.learnmore {
+	background: transparent url(images/learn.png) no-repeat center;
+	width: 163px;
+	height: 40px;
+}
+
+.learnmore:hover {
+	background: transparent url(images/learn2.png) no-repeat center;
+}
+
+.subcribe {
+	background: transparent url(images/subcribe.png) no-repeat center;
+	width: 163px;
+	height: 40px;
+}
+
+.subcribe:hover {
+	background: transparent url(images/subcribe2.png) no-repeat center;
+}
+
+.facebook {
+	width: 40px;
+	height: 40px;
+}
+
+.twitter {
+	width: 60px;
+	height: 60px;
+}
+
+.youtube {
+	width: 50px;
+	height: 50px;
+}
+
+.instagram {
+	width: 50px;
+	height: 50px;
+}
+
+ul.social > li {
+	display: inline-block;
+	list-style: none;
+}
+
+.facebook {
+	background: transparent url(images/facebook.png) no-repeat center;
+	width: 56px;
+	height: 56px;
+}
+
+.facebook:hover {
+	background: transparent url(images/facebook2.png) no-repeat center;
+}
+
+.twitter {
+	background: transparent url(images/twitter.png) no-repeat center;
+	width: 56px;
+	height: 56px;
+}
+
+.twitter:hover {
+	background: transparent url(images/twitter2.png) no-repeat center;
+}
+
+.footer {
+	height: 100px;
+	background-color: #4c4c4c;
+	border-top: solid #ccc 10px;
+	padding-top: 40px;
+	color: #ccc;
+}
